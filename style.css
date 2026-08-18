@@ -67,6 +67,7 @@ body {
     left: 50%;
     bottom: 50%;
     border-radius: 10px;
+    transform-origin: bottom center;
 }
 
 .hour {
@@ -103,17 +104,19 @@ body {
     box-shadow: 0 0 15px #0077ff;
     z-index: 100;
 }
- .date{
+
+.date {
     margin-top: 28px;
     color: #0077ff;
     font-size: 30px;
     letter-spacing: 6px;
     font-weight: 500;
- }
- .time{
+}
+
+.time {
     margin-top: 5px;
     color: #5aa8ff;
     font-size: 20px;
     letter-spacing: 4px;
     font-weight: 500;
- }
+}

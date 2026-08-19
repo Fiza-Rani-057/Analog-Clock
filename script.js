@@ -18,7 +18,7 @@ function clock() {
     minute.style.transform = `rotate(${m * 6 + s * 0.1}deg)`;
     second.style.transform = `rotate(${s * 6}deg)`;
 
-    digital.innerHTML = now.toLocaleTimeString([], {
+    digital.innerHTML = now.toLocaleTimeString({
         hour: '2-digit',
         minute: `2-digit`
     });
